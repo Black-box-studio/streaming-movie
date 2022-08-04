@@ -1,0 +1,52 @@
+name: panel_back_end
+description: Azul Movies Panel
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.1
+  font_awesome_flutter: ^8.10.0
+  google_fonts: ^1.1.1
+  responsive_framework: ^0.0.11
+  dotted_border: ^1.0.7
+  intl: ^0.16.1
+  image_picker_web_redux: ^1.1.0+2
+  url_launcher: ^5.7.10
+
+  firebase_core: ^0.5.3
+  cloud_firestore: ^0.14.4
+  firebase_auth: ^0.18.4
+  firebase: ^7.3.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
