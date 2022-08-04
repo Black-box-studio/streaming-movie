@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "592297674621",
+    "project_id": "azul-movies-63121",
+    "storage_bucket": "azul-movies-63121.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592297674621:android:e44d99163f8478aa646e14",
+        "android_client_info": {
+          "package_name": "com.md.azul_movies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592297674621-s54ccblsv2hob83av28prd3mt2o1t3oe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfoE-UItAwAM69f3VQ6F7nM3YuI7Q4nbc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592297674621-s54ccblsv2hob83av28prd3mt2o1t3oe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
